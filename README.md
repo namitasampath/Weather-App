@@ -31,3 +31,18 @@ A simple web app to check the current weather and 24-hour forecast for any city 
    ```bash
    git clone https://github.com/your-username/weather-app.git
    cd weather-app
+2. **Open the project** : Open index.html in your browser
+3. Enter a city name and hit Search to see the weather.
+
+## 🔑 API Key Setup
+
+This aplication uses the OpenWeatherMap API. You can use the demo key or sign up to get your own API key:
+
+1. Go to OpenWeatherMap
+
+2. Create an account & get your free API key
+
+3. Replace the key in script.js:
+   const apiKey = 'YOUR_API_KEY';
+## License
+This project is licensed under the MIT License .
